@@ -12,12 +12,12 @@ public class Main {
 //        System.out.println(Main.checkForPalindrome("hello"));
 //        System.out.println(Main.checkForPalindrome("Was it a car or a cat I saw ?"));
 
-        System.out.println(Main.convertDecimalToBinary(5));
-        System.out.println("*******************");
-        System.out.println(Main.convertDecimalToBinary(6));
-        System.out.println("*******************");
-        System.out.println(Main.convertDecimalToBinary(13));
-        System.out.println("*******************");
+//        System.out.println(Main.convertDecimalToBinary(5));
+//        System.out.println("*******************");
+//        System.out.println(Main.convertDecimalToBinary(6));
+//        System.out.println("*******************");
+//        System.out.println(Main.convertDecimalToBinary(13));
+//        System.out.println("*******************");
 
     }
 
@@ -46,17 +46,12 @@ public class Main {
         while(num>0) {
             numberList.add(num%2);
             num /= 2;
-            System.out.println(numberList);
         }
         Collections.reverse(numberList);
-        System.out.println(numberList);
 
         for(int numChar : numberList) {
             result += Integer.toString(numChar);
         }
-
-        System.out.println(result);
-
 
         return result;
     }
